@@ -1,2 +1,2 @@
 # BatalhaNaval
- Batalha Naval em Java, projeto da disciplina de Introdução à Programação do curso de Engenharia de Software da UDESC.
+ Projeto da disciplina de Introdução à Programação, ministrada pelo professor Vilson Moro, do curso de Engenharia de Software da UDESC/CEAVI. 
