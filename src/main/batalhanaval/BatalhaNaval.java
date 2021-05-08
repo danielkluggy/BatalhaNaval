@@ -5,6 +5,8 @@ Engenharia de Software - UDESC
 Acadêmico: Daniel Larion Klug
 */
 
+package batalhanaval;
+
 import java.util.Scanner;
 
 public class BatalhaNaval {
