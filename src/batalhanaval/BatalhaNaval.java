@@ -134,7 +134,7 @@ public class BatalhaNaval {
     public static void definirTabuleiro2(int[][] equipamentos2) {
         String linha;
         String coluna;
-        Scanner entrada = new Scanner(System.in);
+        entrada = new Scanner(System.in);
         
         for (int equipamento = 0; equipamento < 5; equipamento++) {
             System.out.print("\nJogador 2, onde você quer colocar seu " + tipo[equipamento] + "?\n");
@@ -204,7 +204,7 @@ public class BatalhaNaval {
     public static void darTiro1(int[] tiro1, int[][] tabuleiro1) {
         String linha;
         String coluna;
-        Scanner entrada = new Scanner(System.in);
+        entrada = new Scanner(System.in);
         boolean jaescolhido = false;
         
         do {
@@ -229,7 +229,7 @@ public class BatalhaNaval {
     public static void darTiro2(int[] tiro2, int[][] tabuleiro2) {
         String linha;
         String coluna;
-        Scanner entrada = new Scanner(System.in);
+        entrada = new Scanner(System.in);
         boolean jaescolhido = false;
         
         do {
