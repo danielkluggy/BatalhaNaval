@@ -5,7 +5,7 @@ Engenharia de Software - UDESC
 Acadêmico: Daniel Larion Klug
 */
 
-package batalhanaval;
+//package batalhanaval;
 
 import java.util.Scanner;
 
@@ -15,6 +15,7 @@ public class BatalhaNaval {
     public static int ntipo = 0;
     public static String limpatela = "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n";
     public static String espacotela = "\n\n\n\n\n";
+    private static Scanner entrada;
     
     public static void main(String[] args) {
         int[][] tabuleiro1 = new int[5][5];
@@ -103,7 +104,7 @@ public class BatalhaNaval {
     public static void definirTabuleiro1(int[][] equipamentos1) {
         String linha;
         String coluna;
-        Scanner entrada = new Scanner(System.in);
+        entrada = new Scanner(System.in);
         
         for (int equipamento = 0; equipamento < 5; equipamento++) {
             System.out.print("\nJogador 1, onde você quer colocar seu " + tipo[equipamento] + "?\n");
